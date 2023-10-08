@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <title id="wt">Hello World!</title>
+  </head>
+  <body>
+    <div id="MenuBar">
+    <table>
+      <tr>
+        <td>
+          <button id="navbb">back</button>
+        </td>
+        <td>
+          <button id="navfb">forward</button>
+        </td>
+        <td>
+          <button id="navrb">refresh</button>
+        </td>
+        <td>
+          <button id="navhb">home</button>
+        </td>
+      </tr>
+    </table>
+    </div>
+    <div id="MenuBar">
+    <table>
+      <tr>
+        <td>
+          <input type="text" id="URLBar">
+          </input>
+        </td>
+        <td>
+          <button id="navlu">go</button>
+        </td>
+      </tr>
+    </table>
+    </div>
+       <webview id="BV" src="https://www.bing.com">
+    </webview>
+    <script src="./renderer.js"></script>
+  </body>
+</html>

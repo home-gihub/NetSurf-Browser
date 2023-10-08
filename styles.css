@@ -1,0 +1,62 @@
+:root {
+    --foreground-color: #b8bcb8;
+    --highlight-color: #f4f8f4;
+    --lshadow-color: #818581;
+    --hshadow-color: #000000;
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+body {
+    background-color: var(--foreground-color);
+    overflow: hidden;
+}
+
+button {
+    padding-right: 4px;
+    padding-left: 4px;
+    background-color: var(--foreground-color);
+    border-top: 1px solid var(--highlight-color);
+    border-bottom: 1px solid var(--lshadow-color);
+    border-left: 1px solid var(--highlight-color);
+    border-right: 1px solid var(--lshadow-color);
+}
+
+input[type="text"] {
+    background-color: var(--highlight-color);
+    border-top: 1px solid var(--hshadow-color);
+    border-bottom: 1px solid var(--lshadow-color);
+    border-left: 1px solid var(--hshadow-color);
+    border-right: 1px solid var(--lshadow-color);
+    height: 1em;
+    width: 50vw;
+}
+
+div#MenuBar {
+    background-color: var(--foreground-color);
+    width: 100vw;
+    height: 1.5em;
+    display: block;
+    border-top: 1px solid var(--highlight-color);
+    border-bottom: 1px solid var(--lshadow-color);
+    border-left: 1px solid var(--highlight-color);
+    border-right: 1px solid var(--lshadow-color);
+}
+
+div#MenuBar > table {
+    background-color: var(--foreground-color);
+}
+
+div#MenuBar > table > tbody > tr > td {
+    padding-right: 0.2em;
+}
+
+webview {
+    width: 100vw;
+    height: calc(100vh - 3em);
+}
