@@ -1,7 +1,7 @@
 {
-  "name": "juicy-movie-verbalize-y7ow2",
-  "productName": "juicy-movie-verbalize-y7ow2",
-  "description": "My Electron application description",
+  "name": "NetSurf",
+  "productName": "NetSurf",
+  "description": "90s style web browser",
   "keywords": [],
   "main": "./main.js",
   "version": "1.0.0",
@@ -46,5 +46,5 @@
       ]
     }
   },
-  "license": "MIT"
+  "license": "GPL"
 }
